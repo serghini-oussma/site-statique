@@ -1,12 +1,53 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>Mon site statique</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <h1>Bienvenue sur mon site</h1>
-        <p>Site statique déployé avec succès </p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Modern Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">BrandName</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact" class="btn">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Design Your Future</h1>
+            <p>We build beautiful, responsive websites with clean code.</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        
+        <div class="card-container">
+            <div class="card">
+                <h3>Web Design</h3>
+                <p>Creating stunning visuals that capture your brand's essence.</p>
+            </div>
+            <div class="card">
+                <h3>Development</h3>
+                <p>Fast, secure, and scalable code built for performance.</p>
+            </div>
+            <div class="card">
+                <h3>SEO</h3>
+                <p>Optimizing your site to rank higher on search engines.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BrandName. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
